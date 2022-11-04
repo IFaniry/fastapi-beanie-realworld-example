@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-beanie-backend-example"
+version = "0.1.0"
+description = ""
+authors = ["IFaniry <faniry.consulting@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_beanie_backend_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.86.0"
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
+beanie = "^1.13.1"
+nanoid = "^2.0.0"
+python-slugify = "^6.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
